@@ -7,7 +7,6 @@
 .container{
     max-width: 1170px;
     margin: 0 auto;
-    background-color: blue;
 }
 
 .row{
@@ -25,35 +24,10 @@
 [class*="col_"]{
     float: left;
     text-align: center;
-    position: relative;
 }
 
 .debug [class*="col_"]{
     height: 60px;
-}
-
-.black{
-    background-color: rgba(0, 0, 0, 1);
-}
-
-.grey{
-    background-color: rgba(96, 96, 96, 1);
-}
-
-.yellow{
-    background-color: rgba(252, 214, 51, 1);
-}
-
-.orange{
-    background-color: rgba(244, 125, 21, 1);
-}
-
-.red{
-   background-color: rgba(243, 65, 53, 1); 
-}
-
-.white{
-    background-color: rgba(254, 254, 254, 1);
 }
 
 .col_1{

@@ -1,0 +1,76 @@
+body{
+    font-family: 'Sigmar One', cursive;
+    margin-top: 30px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header{
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+main{
+    background: linear-gradient(90deg, #0C6B95 0%, #243B51 100%);
+    border: 20px solid rgb(230, 171, 53);
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px 10px rgba(75, 46, 46, 0.719);
+    padding: 20px;
+}
+
+.container{
+    background-color: white;
+    border: 1px solid rgb(141, 139, 139);
+    border-radius: 20px;
+    padding: 20px 50px 50px 50px;
+    background: linear-gradient(180deg, #EBCB84 0%, #D39F41 100%);
+}
+
+.name{
+    font-size: 40px;
+    float: left;
+}
+
+.stats{
+    font-size: 50px;
+    float: right;
+    color: rgba(216, 47, 48, 1);
+    padding-top: 30px;
+}
+
+.fa-bolt{
+    color: black;
+    border-radius: 50%;
+    padding: 10px 20px 10px 20px;
+    margin-left: 3px;
+    background: linear-gradient(90deg, #D4BF56 0%, #B3842C 93.48%);
+}
+/* COLORI */
+.black{
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.grey{
+    background-color: rgba(96, 96, 96, 1);
+}
+
+.yellow{
+    background-color: rgba(252, 214, 51, 1);
+}
+
+.orange{
+    background-color: rgba(244, 125, 21, 1);
+}
+
+.red{
+   background-color: rgba(243, 65, 53, 1); 
+}
+
+.white{
+    background-color: rgba(254, 254, 254, 1);
+}
+/* /COLORI */
