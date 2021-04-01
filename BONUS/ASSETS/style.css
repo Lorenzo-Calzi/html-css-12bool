@@ -33,6 +33,7 @@ main{
 .name{
     font-size: 40px;
     float: left;
+    text-shadow: 6px 2px 8px rgb(77, 76, 75);
 }
 
 .stats{
@@ -40,6 +41,7 @@ main{
     float: right;
     color: rgba(216, 47, 48, 1);
     padding-top: 30px;
+    text-shadow: 6px 2px 8px rgb(77, 76, 75);
 }
 
 .fa-bolt{
